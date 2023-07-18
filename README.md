@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 To use this project starter template, you have a couple of options:
 
-### Option 1: Use `create-next-app`
+### Use `create-next-app`
 
 The easiest way to create a new project based on this template is by using `create-next-app` with the `-e` flag. Run the following command in your terminal:
 
