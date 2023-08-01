@@ -26,5 +26,5 @@ Before you begin, ensure you have the following installed on your machine:
 The easiest way to create a new project based on this template is by using `create-next-app` with the `-e` flag. Run the following command in your terminal:
 
 ```bash
-npx create-next-app -e https://github.com/Vette1123/Next.js-starter-template
+npx create-next-app -e https://github.com/Vette1123/next-js-starter-template
 ```
