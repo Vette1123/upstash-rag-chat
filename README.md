@@ -21,12 +21,12 @@ You can also find Sadge Vite template [here](https://github.com/Vette1123/vite-s
 Before you begin, ensure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org) (at least version X.X.X)
-- [npm](https://www.npmjs.com/get-npm) or [Yarn](https://yarnpkg.com) (preferred)
+- [npm](https://www.npmjs.com/get-npm) or [Yarn](https://yarnpkg.com) or [pnpm](https://pnpm.js.org/en/installation) (preferred)
 
 ### Usage `create-next-app`
 
 The easiest way to create a new project based on this template is by using `create-next-app` with the `-e` flag. Run the following command in your terminal:
 
 ```bash
-npx create-next-app -e https://github.com/Vette1123/next-js-starter-template --use-yarn
+npx create-next-app -e https://github.com/Vette1123/next-js-starter-template
 ```
