@@ -7,6 +7,8 @@ import { MainNav } from '@/components/main-nav'
 import { MobileNav } from '@/components/movile-nav'
 import { ThemeToggle } from '@/components/theme-toggle'
 
+import LocaleSwitcher from './locale-switcher'
+
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background">
@@ -46,6 +48,7 @@ export function SiteHeader() {
               </div>
             </Link>
             <ThemeToggle />
+            <LocaleSwitcher />
           </nav>
         </div>
       </div>

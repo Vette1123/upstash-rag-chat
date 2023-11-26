@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About"
+  },
+  "page": {
+    "home": {
+      "title": "Sadge Next.js Starter Template",
+      "description": "A Next.js starter template with TypeScript, Tailwind CSS, and more."
+    }
+  }
+}
