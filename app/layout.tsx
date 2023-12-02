@@ -1,7 +1,6 @@
 import '@/styles/globals.css'
 
 import type { Metadata } from 'next'
-import { i18n, Locale } from '@/i18n.config'
 import { ThemeProvider } from '@/providers/theme-provider'
 
 import { siteConfig } from '@/config/site'
@@ -23,19 +22,14 @@ export const metadata: Metadata = {
   },
 }
 
-export async function generateStaticParams() {
-  return i18n.locales.map((locale) => ({ lang: locale }))
-}
-
 interface RootLayoutProps {
   children: React.ReactNode
-  params: { lang: Locale }
 }
 
-export default function RootLayout({ children, params }: RootLayoutProps) {
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
-      <html lang={params.lang} suppressHydrationWarning>
+      <html lang="en" suppressHydrationWarning>
         <head />
         <body
           className={cn(
