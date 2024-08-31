@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { PropsWithChildren } from 'react'
+import { NextUIProvider } from '@nextui-org/react'
 
 import { ThemeProvider } from './theme-provider'
 
-export const Providers = ({ children }: { children: React.ReactNode }) => {
+export const Providers = ({ children }: PropsWithChildren) => {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-      {children}
+      <NextUIProvider>{children}</NextUIProvider>
     </ThemeProvider>
   )
 }
